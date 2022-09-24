@@ -1,0 +1,48 @@
+/* 
+  classNote.strings
+  MelfMessaging
+
+  Created by 范志勇 on 2022/9/21.
+  
+*/
+/*
+  classNote.strings
+  M-Elf
+
+  Created by 范志勇 on 2022/9/15.
+  Copyright © 2022 范志勇. All rights reserved.
+*/
+"回课笔记：文字" = "Class Note: Text";
+"回课笔记：声音" = "Class Note: Sound";
+"播放录音" = "Play";
+"停止录音" = "Stop";
+"录制中" = "Recording";
+"最长: " = "Limit: ";
+"分钟\n到时自动停止" = "minutes\nautomatically stop";
+"停止" = "Stopped";
+"照片" = "Photo";
+"视频" = "Video";
+"查看和编辑笔记" = "View and Edit Class Notes";
+"我的笔记" = "My Class Notes";
+"重定位" = "Reposition";
+"删除" = "Delete";
+"归档" = "Archive";
+"取消归档" = "Unarchive";
+"重新定位笔记" = "Reposition Note";
+"点击其他音符上方的笔记图标，就重新定位到该音符" = "Click the note icon above another note to reposition to that note";
+"取消" = "Cancel";
+"笔记删除后，不可恢复，确定删除吗？" = "After the note is deleted, it cannot be recovered. Are you sure you want to delete it?";
+"请慎重考虑 ！！！" = "Please consider carefully ! ! !";
+"确定删除" = "Confirm Delete";
+"笔记，设置归档标记" = "Archive Note";
+"归档后，不会自动删除。" = "Once archived, it will be not automatically deleted.";
+"确定归档" = "Confirm Archive";
+"笔记，取消归档标记" = "Unarchive Note";
+"未归档的笔记，到达自动清理的时间时，会自动删除。" = "Unarchived notes will be automatically deleted when the time for automatic cleaning is reached.";
+"取消归档" = "Unarchive";
+"不" = "No";
+"时长（秒）" = "Duration (seconds)";
+"时长（秒）: " =  "Duration (seconds): ";
+"保存" = "Save";
+"更新" = "Update";
+"文字笔记" = "Class Note Text";

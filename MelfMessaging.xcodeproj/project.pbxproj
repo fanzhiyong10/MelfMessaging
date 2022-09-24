@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6683151428DA84770053674F /* classNote.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6683151628DA84770053674F /* classNote.strings */; };
 		668D4A7428D899A100DD292E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4A7328D899A100DD292E /* AppDelegate.swift */; };
 		668D4A7628D899A100DD292E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4A7528D899A100DD292E /* SceneDelegate.swift */; };
 		668D4A7828D899A100DD292E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4A7728D899A100DD292E /* ViewController.swift */; };
-		668D4A7B28D899A100DD292E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668D4A7928D899A100DD292E /* Main.storyboard */; };
 		668D4A7D28D899A500DD292E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668D4A7C28D899A500DD292E /* Assets.xcassets */; };
 		668D4A8028D899A500DD292E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668D4A7E28D899A500DD292E /* LaunchScreen.storyboard */; };
 		668D4A8B28D899A500DD292E /* MelfMessagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4A8A28D899A500DD292E /* MelfMessagingTests.swift */; };
 		668D4A9528D899A500DD292E /* MelfMessagingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4A9428D899A500DD292E /* MelfMessagingUITests.swift */; };
 		668D4A9728D899A500DD292E /* MelfMessagingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4A9628D899A500DD292E /* MelfMessagingUITestsLaunchTests.swift */; };
+		668D4AA528D89D1800DD292E /* SendTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4AA428D89D1800DD292E /* SendTextViewController.swift */; };
+		668D4AA728D89D3500DD292E /* SendMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4AA628D89D3500DD292E /* SendMusicViewController.swift */; };
+		668D4AA928D89D4A00DD292E /* SendPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4AA828D89D4A00DD292E /* SendPhotoViewController.swift */; };
+		668D4AAB28D89E0A00DD292E /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4AAA28D89E0A00DD292E /* TabBarVC.swift */; };
+		668D4AAE28D89F8B00DD292E /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4AAD28D89F8B00DD292E /* AuthManager.swift */; };
+		668D4AB028D8A04B00DD292E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4AAF28D8A04B00DD292E /* WelcomeViewController.swift */; };
+		668D4AB228D8B94E00DD292E /* mainContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4AB128D8B94E00DD292E /* mainContainerVC.swift */; };
+		668D4AB428D8BA6F00DD292E /* TabButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D4AB328D8BA6F00DD292E /* TabButtonsViewController.swift */; };
+		66D0B71E28DE8D00003BBD47 /* SendSoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0B71D28DE8D00003BBD47 /* SendSoundController.swift */; };
+		66D0B72528DE8E51003BBD47 /* LevelMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0B72028DE8E51003BBD47 /* LevelMeterView.swift */; };
+		66D0B72628DE8E51003BBD47 /* NoteSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0B72128DE8E51003BBD47 /* NoteSoundViewController.swift */; };
+		66D0B72728DE8E51003BBD47 /* PowerMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0B72228DE8E51003BBD47 /* PowerMeter.swift */; };
+		66D0B72828DE8E51003BBD47 /* MeterTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0B72328DE8E51003BBD47 /* MeterTable.swift */; };
+		66D0B72928DE8E51003BBD47 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0B72428DE8E51003BBD47 /* AudioEngine.swift */; };
+		66D0B73028DE8E6D003BBD47 /* sampleVoice48kHz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 66D0B72B28DE8E6D003BBD47 /* sampleVoice48kHz.wav */; };
+		66D0B73128DE8E6D003BBD47 /* sampleVoice16kHz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 66D0B72C28DE8E6D003BBD47 /* sampleVoice16kHz.wav */; };
+		66D0B73228DE8E6D003BBD47 /* sampleVoice441kHz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 66D0B72D28DE8E6D003BBD47 /* sampleVoice441kHz.wav */; };
+		66D0B73328DE8E6D003BBD47 /* Synth.aif in Resources */ = {isa = PBXBuildFile; fileRef = 66D0B72E28DE8E6D003BBD47 /* Synth.aif */; };
+		66D0B73428DE8E6D003BBD47 /* sampleVoice8kHz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 66D0B72F28DE8E6D003BBD47 /* sampleVoice8kHz.wav */; };
+		66DD0D3D28DA01000020397C /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD0D3928DA00FF0020397C /* PreviewView.swift */; };
+		66DD0D3E28DA01000020397C /* ItemSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD0D3A28DA01000020397C /* ItemSelectionViewController.swift */; };
+		66DD0D3F28DA01000020397C /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD0D3B28DA01000020397C /* PhotoCaptureDelegate.swift */; };
+		66DD0D4228DA04430020397C /* ConfigureOfColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD0D4128DA04430020397C /* ConfigureOfColor.swift */; };
+		66DD0D4628DA0D400020397C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD0D4528DA0D400020397C /* CameraViewController.swift */; };
+		66DD0D4828DA10890020397C /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD0D4728DA10890020397C /* SettingsBundleHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +61,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6683151528DA84770053674F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/classNote.strings; sourceTree = "<group>"; };
 		668D4A7028D899A100DD292E /* MelfMessaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelfMessaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		668D4A7328D899A100DD292E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		668D4A7528D899A100DD292E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		668D4A7728D899A100DD292E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		668D4A7A28D899A100DD292E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		668D4A7C28D899A500DD292E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		668D4A7F28D899A500DD292E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		668D4A8128D899A500DD292E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +74,31 @@
 		668D4A9028D899A500DD292E /* MelfMessagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelfMessagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		668D4A9428D899A500DD292E /* MelfMessagingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelfMessagingUITests.swift; sourceTree = "<group>"; };
 		668D4A9628D899A500DD292E /* MelfMessagingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelfMessagingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		668D4AA428D89D1800DD292E /* SendTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTextViewController.swift; sourceTree = "<group>"; };
+		668D4AA628D89D3500DD292E /* SendMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMusicViewController.swift; sourceTree = "<group>"; };
+		668D4AA828D89D4A00DD292E /* SendPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendPhotoViewController.swift; sourceTree = "<group>"; };
+		668D4AAA28D89E0A00DD292E /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		668D4AAD28D89F8B00DD292E /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		668D4AAF28D8A04B00DD292E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		668D4AB128D8B94E00DD292E /* mainContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainContainerVC.swift; sourceTree = "<group>"; };
+		668D4AB328D8BA6F00DD292E /* TabButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonsViewController.swift; sourceTree = "<group>"; };
+		66D0B71D28DE8D00003BBD47 /* SendSoundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendSoundController.swift; sourceTree = "<group>"; };
+		66D0B72028DE8E51003BBD47 /* LevelMeterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelMeterView.swift; sourceTree = "<group>"; };
+		66D0B72128DE8E51003BBD47 /* NoteSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteSoundViewController.swift; sourceTree = "<group>"; };
+		66D0B72228DE8E51003BBD47 /* PowerMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerMeter.swift; sourceTree = "<group>"; };
+		66D0B72328DE8E51003BBD47 /* MeterTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeterTable.swift; sourceTree = "<group>"; };
+		66D0B72428DE8E51003BBD47 /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		66D0B72B28DE8E6D003BBD47 /* sampleVoice48kHz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sampleVoice48kHz.wav; sourceTree = "<group>"; };
+		66D0B72C28DE8E6D003BBD47 /* sampleVoice16kHz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sampleVoice16kHz.wav; sourceTree = "<group>"; };
+		66D0B72D28DE8E6D003BBD47 /* sampleVoice441kHz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sampleVoice441kHz.wav; sourceTree = "<group>"; };
+		66D0B72E28DE8E6D003BBD47 /* Synth.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Synth.aif; sourceTree = "<group>"; };
+		66D0B72F28DE8E6D003BBD47 /* sampleVoice8kHz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sampleVoice8kHz.wav; sourceTree = "<group>"; };
+		66DD0D3928DA00FF0020397C /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		66DD0D3A28DA01000020397C /* ItemSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSelectionViewController.swift; sourceTree = "<group>"; };
+		66DD0D3B28DA01000020397C /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		66DD0D4128DA04430020397C /* ConfigureOfColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureOfColor.swift; sourceTree = "<group>"; };
+		66DD0D4528DA0D400020397C /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		66DD0D4728DA10890020397C /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +126,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6683151128DA83E60053674F /* localize */ = {
+			isa = PBXGroup;
+			children = (
+				6683151628DA84770053674F /* classNote.strings */,
+			);
+			path = localize;
+			sourceTree = "<group>";
+		};
 		668D4A6728D899A100DD292E = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +157,13 @@
 		668D4A7228D899A100DD292E /* MelfMessaging */ = {
 			isa = PBXGroup;
 			children = (
+				66D0B71F28DE8E37003BBD47 /* noteSound */,
+				66DD0D3828DA00B80020397C /* camera */,
+				668D4AAC28D89F6E00DD292E /* model */,
+				668D4AA328D89CE600DD292E /* controller */,
 				668D4A7328D899A100DD292E /* AppDelegate.swift */,
 				668D4A7528D899A100DD292E /* SceneDelegate.swift */,
 				668D4A7728D899A100DD292E /* ViewController.swift */,
-				668D4A7928D899A100DD292E /* Main.storyboard */,
 				668D4A7C28D899A500DD292E /* Assets.xcassets */,
 				668D4A7E28D899A500DD292E /* LaunchScreen.storyboard */,
 				668D4A8128D899A500DD292E /* Info.plist */,
@@ -125,6 +186,68 @@
 				668D4A9628D899A500DD292E /* MelfMessagingUITestsLaunchTests.swift */,
 			);
 			path = MelfMessagingUITests;
+			sourceTree = "<group>";
+		};
+		668D4AA328D89CE600DD292E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				668D4AA428D89D1800DD292E /* SendTextViewController.swift */,
+				668D4AA628D89D3500DD292E /* SendMusicViewController.swift */,
+				66D0B71D28DE8D00003BBD47 /* SendSoundController.swift */,
+				668D4AA828D89D4A00DD292E /* SendPhotoViewController.swift */,
+				668D4AAA28D89E0A00DD292E /* TabBarVC.swift */,
+				668D4AAF28D8A04B00DD292E /* WelcomeViewController.swift */,
+				668D4AB128D8B94E00DD292E /* mainContainerVC.swift */,
+				668D4AB328D8BA6F00DD292E /* TabButtonsViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		668D4AAC28D89F6E00DD292E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				668D4AAD28D89F8B00DD292E /* AuthManager.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		66D0B71F28DE8E37003BBD47 /* noteSound */ = {
+			isa = PBXGroup;
+			children = (
+				66D0B72A28DE8E5B003BBD47 /* Audio */,
+				66D0B72428DE8E51003BBD47 /* AudioEngine.swift */,
+				66D0B72028DE8E51003BBD47 /* LevelMeterView.swift */,
+				66D0B72328DE8E51003BBD47 /* MeterTable.swift */,
+				66D0B72128DE8E51003BBD47 /* NoteSoundViewController.swift */,
+				66D0B72228DE8E51003BBD47 /* PowerMeter.swift */,
+			);
+			path = noteSound;
+			sourceTree = "<group>";
+		};
+		66D0B72A28DE8E5B003BBD47 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				66D0B72F28DE8E6D003BBD47 /* sampleVoice8kHz.wav */,
+				66D0B72C28DE8E6D003BBD47 /* sampleVoice16kHz.wav */,
+				66D0B72B28DE8E6D003BBD47 /* sampleVoice48kHz.wav */,
+				66D0B72D28DE8E6D003BBD47 /* sampleVoice441kHz.wav */,
+				66D0B72E28DE8E6D003BBD47 /* Synth.aif */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		66DD0D3828DA00B80020397C /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				6683151128DA83E60053674F /* localize */,
+				66DD0D4728DA10890020397C /* SettingsBundleHelper.swift */,
+				66DD0D4128DA04430020397C /* ConfigureOfColor.swift */,
+				66DD0D4528DA0D400020397C /* CameraViewController.swift */,
+				66DD0D3A28DA01000020397C /* ItemSelectionViewController.swift */,
+				66DD0D3B28DA01000020397C /* PhotoCaptureDelegate.swift */,
+				66DD0D3928DA00FF0020397C /* PreviewView.swift */,
+			);
+			path = camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +355,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				668D4A8028D899A500DD292E /* LaunchScreen.storyboard in Resources */,
+				66D0B73228DE8E6D003BBD47 /* sampleVoice441kHz.wav in Resources */,
+				66D0B73328DE8E6D003BBD47 /* Synth.aif in Resources */,
+				66D0B73028DE8E6D003BBD47 /* sampleVoice48kHz.wav in Resources */,
+				66D0B73428DE8E6D003BBD47 /* sampleVoice8kHz.wav in Resources */,
+				66D0B73128DE8E6D003BBD47 /* sampleVoice16kHz.wav in Resources */,
 				668D4A7D28D899A500DD292E /* Assets.xcassets in Resources */,
-				668D4A7B28D899A100DD292E /* Main.storyboard in Resources */,
+				6683151428DA84770053674F /* classNote.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +386,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D0B72528DE8E51003BBD47 /* LevelMeterView.swift in Sources */,
+				66DD0D3E28DA01000020397C /* ItemSelectionViewController.swift in Sources */,
+				668D4AB028D8A04B00DD292E /* WelcomeViewController.swift in Sources */,
+				668D4AB428D8BA6F00DD292E /* TabButtonsViewController.swift in Sources */,
+				66D0B71E28DE8D00003BBD47 /* SendSoundController.swift in Sources */,
+				66DD0D4628DA0D400020397C /* CameraViewController.swift in Sources */,
+				66D0B72628DE8E51003BBD47 /* NoteSoundViewController.swift in Sources */,
+				668D4AAB28D89E0A00DD292E /* TabBarVC.swift in Sources */,
+				668D4AAE28D89F8B00DD292E /* AuthManager.swift in Sources */,
 				668D4A7828D899A100DD292E /* ViewController.swift in Sources */,
+				66D0B72828DE8E51003BBD47 /* MeterTable.swift in Sources */,
+				66DD0D3D28DA01000020397C /* PreviewView.swift in Sources */,
+				66DD0D4228DA04430020397C /* ConfigureOfColor.swift in Sources */,
+				668D4AA528D89D1800DD292E /* SendTextViewController.swift in Sources */,
 				668D4A7428D899A100DD292E /* AppDelegate.swift in Sources */,
+				668D4AA728D89D3500DD292E /* SendMusicViewController.swift in Sources */,
 				668D4A7628D899A100DD292E /* SceneDelegate.swift in Sources */,
+				66DD0D4828DA10890020397C /* SettingsBundleHelper.swift in Sources */,
+				668D4AA928D89D4A00DD292E /* SendPhotoViewController.swift in Sources */,
+				66DD0D3F28DA01000020397C /* PhotoCaptureDelegate.swift in Sources */,
+				66D0B72928DE8E51003BBD47 /* AudioEngine.swift in Sources */,
+				668D4AB228D8B94E00DD292E /* mainContainerVC.swift in Sources */,
+				66D0B72728DE8E51003BBD47 /* PowerMeter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +445,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		668D4A7928D899A100DD292E /* Main.storyboard */ = {
+		6683151628DA84770053674F /* classNote.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				668D4A7A28D899A100DD292E /* Base */,
+				6683151528DA84770053674F /* en */,
 			);
-			name = Main.storyboard;
+			name = classNote.strings;
 			sourceTree = "<group>";
 		};
 		668D4A7E28D899A500DD292E /* LaunchScreen.storyboard */ = {
@@ -440,9 +588,12 @@
 				DEVELOPMENT_TEAM = 8F27AJ65NP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MelfMessaging/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = Camera;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = Microphone;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Photo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,9 +619,12 @@
 				DEVELOPMENT_TEAM = 8F27AJ65NP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MelfMessaging/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = Camera;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = Microphone;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Photo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
